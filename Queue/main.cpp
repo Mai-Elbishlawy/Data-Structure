@@ -13,33 +13,6 @@ void Go() {
 #endif
 }
 
-/*
-Queue Implementation in C++
-
-This project includes two implementations of Queue:
-
-1. Dynamic Array Queue
-2. Linked List Queue
-
-Features:
-- Enqueue
-- Dequeue
-- Peek (front element)
-- Get rear element
-- Display
-- Search
-- Count elements
-- Clear queue
-
-Time Complexity:
-- Enqueue: O(1)
-- Dequeue: O(1)
-- Peek: O(1)
-
-Purpose:
-Learning Queue (FIFO) data structure using array and linked list implementations.
-*/
-
 class node {
 public:
     int data;
