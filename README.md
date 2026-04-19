@@ -28,9 +28,13 @@ This project is a simple implementation of a **Singly Linked List** in C++ as pa
 
 LinkedList/
 │
+
 ├── main.cpp
+
 ├── LinkedList.h
+
 ├── LinkedList.cpp
+
 └── README.md
 
 
