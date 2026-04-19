@@ -25,3 +25,19 @@ This project is a simple implementation of a **Singly Linked List** in C++ as pa
 ---
 
 ## 📂 Project Structure
+
+LinkedList/
+│
+├── main.cpp
+├── LinkedList.h
+├── LinkedList.cpp
+└── README.md
+
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/MaiEl-bishlawy/Data-Structure.git
