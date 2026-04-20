@@ -8,7 +8,7 @@ This repository contains implementations of fundamental **Data Structures** in C
 
 ## 1. Singly Linked List
 
-A simple implementation of a **Singly Linked List** using OOP.
+A simple implementation of a Singly Linked List using OOP.
 
 ### Features:
 - Insert at beginning
@@ -23,7 +23,7 @@ A simple implementation of a **Singly Linked List** using OOP.
 
 ## 2. Queue (FIFO - First In First Out)
 
-Implementation of **Queue** using two approaches:
+Implementation of Queue using two approaches:
 - Dynamic Array
 - Linked List
 
@@ -41,7 +41,7 @@ Implementation of **Queue** using two approaches:
 
 ## 3. Stack (LIFO - Last In First Out)
 
-Implementation of **Stack** using three approaches:
+Implementation of Stack using three approaches:
 - Static Stack (fixed array)
 - Dynamic Stack (resizable array)
 - Linked Stack (linked list)
@@ -58,7 +58,7 @@ Implementation of **Stack** using three approaches:
 
 ## 4. Binary Search Tree (BST)
 
-A full implementation of **Binary Search Tree**.
+A full implementation of Binary Search Tree.
 
 ### Features:
 - Insert nodes
@@ -87,10 +87,57 @@ A full implementation of **Binary Search Tree**.
 
 ---
 
-# ⏱️ Time Complexity (Queue)
+# ⏱️ Time Complexity
+
+## 1. Singly Linked List
+
+| Operation              | Complexity |
+|----------------------|------------|
+| Insert at beginning  | O(1)       |
+| Insert at end        | O(n)       |
+| Insert at position    | O(n)       |
+| Delete node          | O(n)       |
+| Search               | O(n)       |
+| Display              | O(n)       |
+| Get size             | O(n) |
+
+---
+
+## 2. Queue
 
 | Operation | Complexity |
 |----------|------------|
 | Enqueue  | O(1)       |
 | Dequeue  | O(1)       |
 | Peek     | O(1)       |
+| Search   | O(n)       |
+| Display  | O(n)       |
+
+---
+
+## 3. Stack
+
+| Operation | Complexity |
+|----------|------------|
+| Push     | O(1)       |
+| Pop      | O(1)       |
+| Peek     | O(1)       |
+| Search   | O(n)       |
+| Display  | O(n)       |
+
+---
+
+## 4. Binary Search Tree (BST)
+
+| Operation        | Average Case | Worst Case |
+|----------------|--------------|------------|
+| Insert         | O(log n)     | O(n)       |
+| Search         | O(log n)     | O(n)       |
+| Delete         | O(log n)     | O(n)       |
+| Traversal      | O(n)         | O(n)       |
+| Min / Max      | O(log n)     | O(n)       |
+| Height / Stats | O(n)         | O(n)       |
+
+---
+
+> Note: All complexities assume a balanced BST. In worst case, it behaves like a linked list.
