@@ -250,13 +250,12 @@ signed main() {
     s2.display();
 
     LinkedStack s3;
-    int n;
-    cin>>n;
-    int x;
-    for (int i = 0; i < n; i++) {
-        cin >> x;
-        s3.push(x);
-    }
+    s3.push(1);
+    s3.push(2);
+    s3.push(3);
+    s3.push(4);
+
+
     s3.display();
     s3.pop();
     s3.display();
